@@ -1,10 +1,7 @@
-﻿body
-{
-}
-
+﻿
 .instanceInformation {
     width:500px;
     height:400px;
     overflow:auto;
-    nackground-color:red;
+    background-color:red;
 }
