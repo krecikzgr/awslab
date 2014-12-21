@@ -1,2 +1,2 @@
-﻿var AWS = require("./node_modules/aws­-sdk")
+﻿var AWS = require("aws­-sdk")
 AWS.config.loadFromPath("./config.json")
