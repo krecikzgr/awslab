@@ -46,7 +46,7 @@ var task =  function(request, callback){
 	callback(null, fName + " " + lName);
 }
 
-exports.lab = task
+`.lab = task
 
 ````
 
@@ -70,4 +70,4 @@ var urlMap = [
 
 > node app.js
 
-Przykładowe wywołanie: > http://localhost:8080/example_1?fName=Jan&lName=Nowak
+Przykładowe wywołanie: > http://localhost:8080/example_1?	
