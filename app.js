@@ -7,7 +7,7 @@ var urlMap = [
 	{path: "/", action:__dirname + "/static/index.html"},	 
 	{path: "/digest", action: lab1_1},	
 	{ path: "/example_1", action: example_1 },
-    {path: "/information", action: ak_lab2},
+    {path: "/something", action: ak_lab2},
 	];
 var service = require("./lib/service").http(urlMap);
 service(PORT);
