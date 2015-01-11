@@ -8,7 +8,7 @@ AWS.config.loadFromPath('./config.json');
 
 var task = function (request, callback) {
     var params = {
-        ImageId: 'i-8c249b80', /* required */
+        ImageId: 'ami-4983d779', /* required */
         MaxCount: 1, /* required */
         MinCount: 1, /* required */
 
@@ -26,8 +26,8 @@ var task = function (request, callback) {
                 },
                 /* more items */
               ],
-              SubnetId: 'ami-4983d779',
- 
+              SubnetId: 'subnet-010d0a75',
+            
    
           },
           /* more items */
