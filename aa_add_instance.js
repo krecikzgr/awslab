@@ -26,7 +26,7 @@ var task = function (request, callback) {
                 },
                 /* more items */
               ],
-              SubnetId: 'subnet-010d0a75',
+              SubnetId: 'ami-4983d779',
  
    
           },
