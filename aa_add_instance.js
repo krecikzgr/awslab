@@ -26,7 +26,7 @@ var task = function (request, callback) {
                 },
                 /* more items */
               ],
-              SubnetId: 'STRING_VALUE',
+              SubnetId: 'subnet-010d0a75',
               SecondaryPrivateIpAddressCount: 0,
    
           },
