@@ -7,6 +7,7 @@ var task = function (request, callback) {
     var params = {
         DryRun: true,
     };
+    var ec2 = new AWS.EC2();
     ec2.describeInstances(params, function (err, data) {
         if (err) {
             console.log(err, err.stack);
