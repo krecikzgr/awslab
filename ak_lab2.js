@@ -5,7 +5,7 @@ AWS.config.loadFromPath('./config.json');
 
 var task = function (request, callback) {
     var params = {
-        DryRun: true,
+        DryRun: false,
     };
     var ec2 = new AWS.EC2();
     ec2.describeInstances(params, function (err, data) {
