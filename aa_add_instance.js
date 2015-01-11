@@ -19,7 +19,6 @@ var task = function (request, callback) {
         NetworkInterfaces: [
           {
               DeviceIndex: 0,
-              NetworkInterfaceId: 'STRING_VALUE',
               PrivateIpAddresses: [
                 {
                     PrivateIpAddress: '172.31.28.83', /* required */
