@@ -6,9 +6,6 @@
 AWS.config.loadFromPath('./config.json');
 
 
-
-
-
 var task = function (request, callback) {
     var params = {
         ImageId: 'i-8c249b80', /* required */
@@ -36,6 +33,7 @@ var task = function (request, callback) {
         ],
       
     };
+    var ec2 = new AWS.EC2();
     ec2.runInstances(params, function (err, data) {
         if (err) {
             console.log(err, err.stack);
