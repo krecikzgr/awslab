@@ -16,22 +16,7 @@ var task = function (request, callback) {
         Monitoring: {
             Enabled: true /* required */
         },
-        NetworkInterfaces: [
-          {
-              DeviceIndex: 0,
-              PrivateIpAddresses: [
-                {
-                    PrivateIpAddress: '172.31.28.83', /* required */
-                   
-                },
-                /* more items */
-              ],
-              SubnetId: 'subnet-010d0a75',
-            
-   
-          },
-          /* more items */
-        ],
+
       
     };
     var ec2 = new AWS.EC2();
